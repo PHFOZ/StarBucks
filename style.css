@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #afd8af;
+
+}
+
+/* para estilizar uma classe, adicionar um ponto antes do nome da classe */
+
+.caixa-conteudo {
+    width: 100%; /*largura*/
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.caixa-texto {
+    width: 300px;
+}
+h2 {
+    color: #333333;
+    font-size: 40px; /* tamanho da fonte*/
+    font-weight: 500px; /* grossura da fonte*/
+    width: 400px;
+}
+.sub-titulo {
+    width: 400px;
+    font-size: 15px;
+}
+  
+span {
+    color: #017143;
+    font-weight: 900px
+    
+}
+
+p{
+    font-size: 16px;
+}
+
+button {
+    background-color: #017143;
+    color: #ffffffff;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+
+}
+.botão-logo {
+    background-color: #017143;
+    color: #ffffffff;
+    border-radius: 40px;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 300px;
+
+}
+
+button:hover {
+    background-color: #07af07;
+
+}
+.logo {
+    width: 40px;
+}
+
+.caixa-menu {
+    width: 1155px;
+    display: flex;
+    justify-content: center;
+    box-sizing: 05px;
+}
+
+.botão-menu {
+    width: 60px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+    margin-top: -100px;
+}
+
+.botão-menu:hover {
+    transform: translateY(-25px);
+
+}
+.copo {
+    width: 200px;
+}
+
+.circulo {
+    width: 100%;
+    height: 150%;
+    background-color: #017143;
+    position: absolute;
+    top: 20;
+    left: 0;
+    clip-path: circle(400px at right 600px);
+    z-index: -1;
+}
+/*
+.caixa-texto2 {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+}*/
